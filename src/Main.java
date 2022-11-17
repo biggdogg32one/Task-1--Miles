@@ -5,8 +5,7 @@ public class Main {
         int percentRubles = 20;
         int bonusMiles = 1;
 
-
-        int bonus = amount / percentRubles * 1;
+        int bonus = amount / percentRubles * bonusMiles;
 
         System.out.println("Итоговые бонусные мили: " + bonus);
     }
